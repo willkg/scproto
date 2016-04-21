@@ -8,4 +8,4 @@ then
     echo "Aborting."
     exit
 fi
-gunicorn --config "${KIND}_conf.py" "scproto.${KIND}_wsgi:app"
+gunicorn --config "gunicorn_conf.py" "scproto.${KIND}_wsgi:app"

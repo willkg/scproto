@@ -46,7 +46,7 @@ def breakpad_handle(uuid, data, throttle_ret):
 
 
 @route('/submit')
-def index():
+def submit_view():
     # We're (ab)using uuids as both the return value for the crash id as well
     # as a way to differentiate between incoming requests for logging.
     uuid = generate_uuid()
