@@ -8,6 +8,7 @@ requirements = [
     'gevent',
 
     'bottle',
+    'falcon',
     'flask',
 ]
 
